@@ -2,8 +2,8 @@ const express = require('express');
 const app = express();
 
 
-app.get('/:params', async (req, res) => {
-  res.send({ok:req.body.params});
+app.get('/', async (req, res) => {
+  res.send({ok:'seja bem Vindo'});
 });
 
 
